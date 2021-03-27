@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 app.set("view engine", "ejs");
 
-const names = "Shayan, Mariah, Jasleen"
+const names = "Sajjin, Mariah, Jasleen"
 
 app.get("/", (req, res) => res.render("pages/index", {
   movies : ["List empty 😳"],
