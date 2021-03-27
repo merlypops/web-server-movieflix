@@ -1,6 +1,5 @@
 /*
- Authors: Mariah Mirzayan (A01179440), Jasleen Lodhra (A01208987), Sajjin Nijjar (A01055657)
- Your name and student #: Mariah Mirzayan A01179440
+
 */
 const express = require("express");
 const fs = require("fs")
@@ -10,7 +9,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 app.set("view engine", "ejs");
 
-const names = "Sajjin, Mariah, Jasleen"
+const names = "hi"
 
 app.get("/", (req, res) => res.render("pages/index", {
   movies : ["List empty 😳"],
