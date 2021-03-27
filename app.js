@@ -1,7 +1,6 @@
 /*
- Authors: Mariah, Jasleen, Shayan
+ Authors: Mariah Mirzayan (A01179440), Jasleen Lodhra (A01208987), Sajjin Nijjar(A01055657)
  Your name and student #: Mariah Mirzayan A01179440
- Your Partner's Name and student #: Jasleen Lodhra A01208987 & Shayan Sabzkoohi A01075916
 */
 const express = require("express");
 const fs = require("fs")
